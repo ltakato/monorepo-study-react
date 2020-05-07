@@ -1,0 +1,25 @@
+{
+  "name": "@project/app",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "takato <ltakato@hotmail.com>",
+  "homepage": "https://github.com/ltakato/monorepo-study-react#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+  },
+  "files": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltakato/monorepo-study-react.git"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "takato-monorepo-study-react-components": "^0.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ltakato/monorepo-study-react/issues"
+  }
+}
