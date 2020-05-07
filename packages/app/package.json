@@ -1,25 +1,38 @@
 {
   "name": "@project/app",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "takato <ltakato@hotmail.com>",
-  "homepage": "https://github.com/ltakato/monorepo-study-react#readme",
-  "license": "ISC",
-  "main": "src/index.js",
-  "directories": {
-  },
-  "files": [
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ltakato/monorepo-study-react.git"
-  },
-  "scripts": {
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@craco/craco": "^5.6.4",
+    "@project/components": "^0.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "craco-babel-loader": "^0.1.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
     "takato-monorepo-study-react-components": "^0.0.0"
   },
-  "bugs": {
-    "url": "https://github.com/ltakato/monorepo-study-react/issues"
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
