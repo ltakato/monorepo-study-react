@@ -1,0 +1,25 @@
+{
+  "name": "takato-monorepo-study-react-components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "takato <ltakato@hotmail.com>",
+  "homepage": "https://github.com/ltakato/monorepo-study-react#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {},
+  "files": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltakato/monorepo-study-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ltakato/monorepo-study-react/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "react": "^16.13.1",
+    "rollup": "^2.8.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
